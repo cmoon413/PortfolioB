@@ -1,9 +1,23 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    background-image: url(../images/retina_wood.png);
+    background: url(../images/retina_wood.png);
+    margin-bottom: 60px;
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    /* Set the fixed height of the footer here */
+    line-height: 60px;
+    /* Vertically center the text there */
     background-color: #666666;
+    overflow: hidden;
 }
 
 .bg-success {
@@ -16,4 +30,8 @@ footer {
 
 .border {
     border-top: 8px solid #4aaaa5!important;
+}
+
+.card-body {
+    background-color: #4aaaa5!important;
 }
