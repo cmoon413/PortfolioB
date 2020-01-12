@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/retina_wood.png);
+}
+
+footer {
+    background-color: #666666;
+}
+
+.bg-success {
+    background-color: #4aaaa5!important;
+}
+
+#copyright {
+    color: #b7b3b3;
+}
+
+.border {
+    border-top: 8px solid #4aaaa5!important;
+}
